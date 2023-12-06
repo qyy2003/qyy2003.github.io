@@ -9,8 +9,10 @@
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <h3 style="text-align:center;" class="author__name">{{ author.name }}</h3>
+    <h3 style="text-align:center;" class="author__name">{{ author.chi_name }}</h3>
+    <!-- {% if author.major %}<p class="author__bio">{{ author.major }}</p>{% endif %} -->
+    {% if author.bio %}<p style="text-align:center;" class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
